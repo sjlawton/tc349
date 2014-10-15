@@ -73,6 +73,17 @@ fieldset {
     margin: 0;
     padding: 0;
 }
+.recipe
+{
+background-color: #f1c40f;
+border-bottom: solid 3px #ddd;
+}
+
+#note
+{
+background-color: #aaa;
+height: 40px;
+}
 
 /*
  * Allow only vertical resizing of textareas.

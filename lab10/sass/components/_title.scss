@@ -17,10 +17,19 @@
 #title {
 	background-color: #6c5177; 
 	text-align: center;
-	
-}
 
+}
+#title h3:hover {
+
+	color:#FFFFFF;
+}
 #title h1 {
 	margin: 0px;
-	padding: 100px 0px;
+	padding: 80px 0px;
+}
+#title h3 {
+	margin:0px;
+	padding:20px;
+	color:#482955;
+	transition: color 2s;
 }

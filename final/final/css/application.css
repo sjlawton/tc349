@@ -111,12 +111,18 @@ ul {
   color: white;
 }
 
-/* line 45, ../sass/components/_title.scss */
+@media (max-width: 600px) {
+  /* line 46, ../sass/components/_title.scss */
+  #nav a {
+    font-size: 200%;
+  }
+}
+/* line 50, ../sass/components/_title.scss */
 #nav span:hover {
   background-color: #6BC7C2;
 }
 
-/* line 49, ../sass/components/_title.scss */
+/* line 54, ../sass/components/_title.scss */
 #nav span {
   padding: 10px 0;
   border-top-left-radius: 5px;
@@ -126,7 +132,7 @@ ul {
   text-align: center;
 }
 
-/* line 58, ../sass/components/_title.scss */
+/* line 63, ../sass/components/_title.scss */
 #title span {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -136,7 +142,7 @@ ul {
   text-align: center;
 }
 
-/* line 68, ../sass/components/_title.scss */
+/* line 73, ../sass/components/_title.scss */
 #title {
   box-shadow: 0px 5px 3px #777;
 }

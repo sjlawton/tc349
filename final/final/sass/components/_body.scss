@@ -1,0 +1,127 @@
+#wrap {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+html
+{
+background-color:#22313F;
+color:#000;
+}
+
+#body {
+	background-color: #A3D3FF;
+	clear: both;
+	margin: 0px;
+	padding-top: 50px;
+}
+
+#main{
+box-shadow: inset 0 5px #DDD;
+}
+
+p {
+ text-align: center;
+}
+.showcode {
+font-style: normal;
+
+color: black;
+}
+.contributor {
+float:right;
+display: inline-block;
+width:20%;
+text-align:right;
+}
+.date {
+width:50%;
+float:right;
+display:inline-block;
+text-align:right;
+}
+.code {
+word-wrap: break-word;
+}
+.codewidth {
+	width:80%;
+	margin: 5px 10%;
+	padding: 2px 2px;
+	border:solid 2px; 
+}
+form input, form textarea {
+width:70%;
+float:right;
+display:inline-block;
+}
+.formspan{
+clear:both;
+margin:5px;
+text-align:right;
+}
+form{
+display:inline-block;
+height:100%;
+width:80%;
+}
+textarea {
+width:300px;
+height:50px;
+}
+#thanks {
+display:none;
+width:100%;
+text-align:center;
+clear:both;}
+
+button {
+width:30%;
+clear:both;}
+#subdiv
+{
+margin:auto;
+width:50%;
+display:block;
+text-align:center;
+}
+#submitad
+{
+width:20%;
+float:right;
+}
+img
+{
+width:100%;
+display:inline;
+}
+.ad
+{
+display: block;
+width:49%;
+height:400px;
+
+text-align:center;
+}
+.ada
+{
+width:120px;
+background-color:#fff;
+height:40px;
+margin-top:100px;
+}	
+.right{
+float:right;
+}
+.ada a{
+font-style: normal;
+text-decoration:none;
+color: black;
+}
+.inline{
+display:inline;
+}
+#mainback
+{
+background-image:url("../img/library.jpg");
+
+}

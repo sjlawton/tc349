@@ -1,0 +1,36 @@
+
+ul {
+list-style-type: none;
+indent:0;
+padding:0;
+margin:0;
+}
+.grid li  {
+  background: #482955;
+  float: left;
+  height: 200px;
+  width: 21%;
+  color:#000;
+  text-align:center;
+  padding:2%;
+  font-size:24px;
+}
+#main
+{
+background-color:#FFF;
+padding:.5em;
+}
+.songheader h3 {
+  width: 100%;
+  height: 20px;
+  background-color:#59ABE3;
+  text-align:center;
+   border-radius: 5px 5px 0 0;
+
+}
+.songinfo {
+  border-radius: 5px;
+  width:80%;
+  margin: 0 10%;
+  background-color:#DADFE1;
+}

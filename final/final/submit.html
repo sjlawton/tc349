@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>MML Library</title>
+  <meta name="description" content="MML Library Song List">
+  <meta name="author" content="Steven Lawton">
+  <script src="scripts/script.js"></script>
+  <link rel="stylesheet" href="css/application.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="header">
+		<div id="logo" ></div>
+		<div id="nav" ><a href="index.html"><span>Home</span></a><a href="songlist.html"><span class="selectedtab">Song List</span></a><a href="submit.html"><span>Submit</span></a><a href="info.html"><span>Info</span></a>
+		</div>
+		</div>
+		<div id="title">
+			<h1>Submit your own MML</h1>
+		</div>
+		<div id="main">
+			<form>
+			<p class="formspan"><label>Song Title:</label><input type="text" name="Song Title"> </p>
+			<br>
+			<p class="formspan"><label>Artist:</label><input type="text" name="Artist"></p>
+			<br>
+			<p class="formspan"><label>Submitter Name:</label><input type="text" name="Submitter Name"></p>
+			<br>
+			<p class="formspan"><label>MML Code:</label><textarea name="MML Code"></textarea></p>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			</form>
+			<div id='subdiv'><button onClick="submitted()">Submit</button>
+			<br>
+			<p id="thanks">Thank you for your submission!</p></div>
+		</div>
+		<footer><a href="contact.html">Contact Us</a></footer>
+		</body>
+</html>
